@@ -8,7 +8,7 @@ The [philo/laravel-blade](https://github.com/PhiloNL/Laravel-Blade) package is u
 ## Usage
 
 ```php
-Jeffreyvr\WPBlade\WPBlade::Boot();
+Jeffreyvr\WPBlade\WPBlade::boot();
 ```
 
 ## Views
