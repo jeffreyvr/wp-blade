@@ -1,0 +1,26 @@
+{
+    "name": "jeffreyvanrossum/wp-blade",
+    "description": "Use the Laravel templating engine in your WordPress theme.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeffrey van Rossum",
+            "email": "jeffrey@vanrossum.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "philo/laravel-blade": "^3.1"
+    },
+    "require-dev": {
+        "phpcompatibility/php-compatibility": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeffreyvr\\WPBlade\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
