@@ -5,6 +5,12 @@ Use the Laravel templating engine in your WordPress theme.
 
 The [philo/laravel-blade](https://github.com/PhiloNL/Laravel-Blade) package is used for Blade.
 
+## Usage
+
+```php
+Jeffreyvr\WPBlade\WPBlade::Boot();
+```
+
 ## Views
 This package expects your template files to be in a `views` subfolder of your theme.
 
